@@ -1,0 +1,8 @@
+{
+  "name": "dizi-davetiye",
+  "version": "1.0.0",
+  "description": "Dijital davetiye - katılım bilgileri otomatik Excel'e kaydedilir",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "exceljs": "^4.4.0" }
+}

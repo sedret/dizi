@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Davetiye</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;
+    background:linear-gradient(160deg,#f6efe6,#e9d9c3);font-family:Georgia,'Times New Roman',serif;color:#4a3b2a}
+  .card{max-width:440px;width:100%;background:#fffdf9;border:1px solid #d9c3a0;border-radius:16px;
+    padding:36px 28px;text-align:center;box-shadow:0 10px 30px rgba(90,60,20,.15)}
+  .kucuk{letter-spacing:3px;text-transform:uppercase;font-size:12px;color:#a8833f}
+  h1{font-size:34px;margin:10px 0 16px;font-weight:normal}
+  .bilgi{margin:6px 0;font-size:16px}
+  .mesaj{font-style:italic;margin:18px 0 24px;color:#6b5a44}
+  hr{border:0;border-top:1px solid #e6d6bb;margin:22px 0}
+  label{display:block;text-align:left;font-size:14px;margin:12px 0 4px}
+  input,select,textarea{width:100%;padding:10px;border:1px solid #d9c3a0;border-radius:8px;font:inherit;background:#fff}
+  .durum{display:flex;gap:10px;margin-top:6px}
+  .durum button{flex:1;padding:10px;border:1px solid #d9c3a0;border-radius:8px;background:#fff;font:inherit;cursor:pointer}
+  .durum button.aktif{background:#a8833f;color:#fff;border-color:#a8833f}
+  .gonder{margin-top:20px;width:100%;padding:12px;border:0;border-radius:8px;background:#4a3b2a;color:#fff;font:inherit;font-size:16px;cursor:pointer}
+  .gonder:disabled{opacity:.6}
+  .hata{color:#b3261e;font-size:14px;margin-top:10px;min-height:18px}
+  .tesekkur{display:none;font-size:18px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="kucuk" id="baslik"></div>
+  <h1 id="isimler"></h1>
+  <div class="bilgi" id="tarih"></div>
+  <div class="bilgi" id="saat"></div>
+  <div class="bilgi" id="mekan"></div>
+  <div class="mesaj" id="mesaj"></div>
+  <hr>
+  <form id="form">
+    <label for="ad">Adınız Soyadınız</label>
+    <input id="ad" required maxlength="80" autocomplete="name">
+    <label>Katılacak mısınız?</label>
+    <div class="durum">
+      <button type="button" data-d="Geliyor" class="aktif">Geliyorum</button>
+      <button type="button" data-d="Gelemiyor">Gelemiyorum</button>
+    </div>
+    <div id="kisiAlan">
+      <label for="kisi">Kaç kişi geleceksiniz? (sizinle birlikte)</label>
+      <select id="kisi"></select>
+    </div>
+    <label for="not">Notunuz (isteğe bağlı)</label>
+    <textarea id="not" rows="2" maxlength="300"></textarea>
+    <button class="gonder" id="gonder">Gönder</button>
+    <div class="hata" id="hata"></div>
+  </form>
+  <div class="tesekkur" id="tesekkur"></div>
+</div>
+<script>
+let durum = 'Geliyor';
+const $ = (id) => document.getElementById(id);
+fetch('/api/config').then(r => r.json()).then(c => {
+  $('baslik').textContent = c.baslik; $('isimler').textContent = c.isimler;
+  $('tarih').textContent = '📅 ' + c.tarih; $('saat').textContent = '🕖 ' + c.saat;
+  $('mekan').textContent = '📍 ' + c.mekan; $('mesaj').textContent = c.mesaj;
+  document.title = c.isimler + ' - ' + c.baslik;
+  for (let i = 1; i <= c.maksKisi; i++) $('kisi').add(new Option(i + ' kişi', i));
+});
+document.querySelectorAll('.durum button').forEach(b => b.onclick = () => {
+  durum = b.dataset.d;
+  document.querySelectorAll('.durum button').forEach(x => x.classList.toggle('aktif', x === b));
+  $('kisiAlan').style.display = durum === 'Geliyor' ? '' : 'none';
+});
+$('form').onsubmit = async (e) => {
+  e.preventDefault(); $('hata').textContent = ''; $('gonder').disabled = true;
+  try {
+    const r = await fetch('/api/rsvp', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ad: $('ad').value, durum, kisi: $('kisi').value, not: $('not').value }) });
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.hata || 'Hata');
+    $('form').style.display = 'none'; $('tesekkur').style.display = 'block';
+    $('tesekkur').textContent = durum === 'Geliyor'
+      ? `Teşekkürler ${$('ad').value}! ${$('kisi').value} kişilik katılımınız kaydedildi. Sizi bekliyoruz 💛`
+      : `Teşekkürler ${$('ad').value}, yanıtınız kaydedildi. Sizi özleyeceğiz 💛`;
+  } catch (err) { $('hata').textContent = err.message; $('gonder').disabled = false; }
+};
+</script>
+</body>
+</html>
