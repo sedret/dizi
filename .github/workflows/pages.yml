@@ -21,7 +21,7 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
-      - run: mkdir _site && cp index.html menu-qr.png menu-qr.svg _site/
+      - run: mkdir _site && cp -r index.html img menu-qr.png menu-qr.svg _site/
       - uses: actions/upload-pages-artifact@v3
       - id: deployment
         uses: actions/deploy-pages@v4
