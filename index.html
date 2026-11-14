@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Öz Urfa – Menü</title>
+<style>
+  :root{--turuncu:#d9541e;--bordo:#6e1423;--krem:#fbe9d3;--yesil:#1f6b2e}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Georgia,"Times New Roman",serif;background:var(--krem);color:#2b1a14}
+  header{background:linear-gradient(160deg,var(--turuncu),#b53d12);color:#fff;text-align:center;padding:28px 16px 22px}
+  header h1{margin:0;font-size:2.4rem;letter-spacing:2px}
+  header h1 span{color:#ffd45a}
+  header p{margin:6px 0 0;font-size:.85rem;letter-spacing:1px}
+  .since{display:inline-block;margin-top:10px;padding:3px 12px;border:2px solid #ffd45a;border-radius:20px;font-size:.75rem}
+  nav{position:sticky;top:0;background:var(--bordo);display:flex;overflow-x:auto;z-index:5}
+  nav a{color:#fff;text-decoration:none;padding:12px 16px;white-space:nowrap;font-size:.9rem}
+  nav a:active{background:#8c1d31}
+  main{max-width:640px;margin:0 auto;padding:8px 16px 40px}
+  h2{color:var(--bordo);border-bottom:3px double var(--turuncu);padding-bottom:6px;margin-top:28px}
+  ul{list-style:none;margin:0;padding:0}
+  li{display:flex;align-items:baseline;gap:8px;padding:11px 0;border-bottom:1px dotted #c9a584;font-size:1.05rem}
+  li .ad{font-weight:bold}
+  li .nokta{flex:1}
+  li .fiyat{color:var(--bordo);font-weight:bold;white-space:nowrap}
+  footer{text-align:center;font-size:.8rem;color:#6b4c3d;padding:0 16px 28px}
+</style>
+</head>
+<body>
+<header>
+  <h1>ÖZ <span>URFA</span></h1>
+  <p>KEBAP | LAHMACUN | ÇİĞKÖFTE | KÜNEFE</p>
+  <div class="since">1988 · Değişmeyen Lezzet</div>
+</header>
+<nav>
+  <a href="#kebap">Kebaplar</a>
+  <a href="#pide">Pide &amp; Lahmacun</a>
+  <a href="#diger">Çiğköfte &amp; Tatlı</a>
+  <a href="#icecek">İçecekler</a>
+</nav>
+<main>
+  <section id="kebap">
+    <h2>Kebaplar</h2>
+    <ul>
+      <li><span class="ad">Adana Kebap</span><span class="nokta"></span><span class="fiyat">₺420</span></li>
+      <li><span class="ad">Acısız Kıyma</span><span class="nokta"></span><span class="fiyat">₺420</span></li>
+      <li><span class="ad">Ciğer Kebap</span><span class="nokta"></span><span class="fiyat">₺420</span></li>
+      <li><span class="ad">Beyti</span><span class="nokta"></span><span class="fiyat">₺480</span></li>
+      <li><span class="ad">Tereyağlı Urfa</span><span class="nokta"></span><span class="fiyat">₺480</span></li>
+      <li><span class="ad">Patlıcan Kebabı</span><span class="nokta"></span><span class="fiyat">₺480</span></li>
+      <li><span class="ad">Kuşbaşı Kebap</span><span class="nokta"></span><span class="fiyat">₺600</span></li>
+      <li><span class="ad">Karışık Izgara</span><span class="nokta"></span><span class="fiyat">₺820</span></li>
+      <li><span class="ad">Tavuk Şiş</span><span class="nokta"></span><span class="fiyat">₺400</span></li>
+      <li><span class="ad">Tavuk Kanat</span><span class="nokta"></span><span class="fiyat">₺400</span></li>
+    </ul>
+  </section>
+  <section id="pide">
+    <h2>Pide &amp; Lahmacun</h2>
+    <ul>
+      <li><span class="ad">Karışık Pide</span><span class="nokta"></span><span class="fiyat">₺580</span></li>
+      <li><span class="ad">Kuşbaşı Pide</span><span class="nokta"></span><span class="fiyat">₺520</span></li>
+      <li><span class="ad">Kıymalı Pide</span><span class="nokta"></span><span class="fiyat">₺420</span></li>
+      <li><span class="ad">Kaşarlı Pide</span><span class="nokta"></span><span class="fiyat">₺420</span></li>
+      <li><span class="ad">Lahmacun</span><span class="nokta"></span><span class="fiyat">₺130</span></li>
+    </ul>
+  </section>
+  <section id="diger">
+    <h2>Çiğköfte, Çorba &amp; Tatlı</h2>
+    <ul>
+      <li><span class="ad">Çiğköfte</span><span class="nokta"></span><span class="fiyat">₺350</span></li>
+      <li><span class="ad">Çorba</span><span class="nokta"></span><span class="fiyat">₺120</span></li>
+      <li><span class="ad">Künefe</span><span class="nokta"></span><span class="fiyat">₺250</span></li>
+    </ul>
+  </section>
+  <section id="icecek">
+    <h2>İçecekler</h2>
+    <ul>
+      <li><span class="ad">Kola · Fanta · Meyve Suyu</span><span class="nokta"></span><span class="fiyat">₺60</span></li>
+      <li><span class="ad">Ayran</span><span class="nokta"></span><span class="fiyat">₺30</span></li>
+    </ul>
+  </section>
+</main>
+<footer>Fiyatlar TL cinsindendir. Afiyet olsun!</footer>
+</body>
+</html>
