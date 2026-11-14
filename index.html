@@ -15,8 +15,11 @@
   header h1 span{color:#ffd45a}
   header p{margin:6px 0 0;font-size:.85rem;letter-spacing:1px}
   .since{display:inline-block;margin-top:10px;padding:3px 12px;border:2px solid #ffd45a;border-radius:20px;font-size:.75rem}
-  nav{position:sticky;top:0;background:var(--bordo);display:flex;overflow-x:auto;z-index:5}
-  nav a{color:#fff;text-decoration:none;padding:12px 16px;white-space:nowrap;font-size:.9rem}
+  nav{position:sticky;top:0;background:var(--bordo);display:flex;z-index:5}
+  nav a{flex:1;text-align:center;color:#fff;text-decoration:none;padding:13px 2px;font-size:.88rem;border-bottom:4px solid transparent;transition:background .2s}
+  nav a.aktif{background:#8c1d31;border-bottom-color:#ffd45a;font-weight:bold}
+  section{scroll-margin-top:52px}
+  html{scroll-behavior:smooth}
   nav a:active{background:#8c1d31}
   main{max-width:640px;margin:0 auto;padding:8px 16px 40px}
   h2{color:var(--bordo);border-bottom:3px double var(--turuncu);padding-bottom:6px;margin-top:28px}
@@ -39,9 +42,9 @@
 </header>
 <nav>
   <a href="#kebap">Kebaplar</a>
-  <a href="#pide">Pide &amp; Lahmacun</a>
-  <a href="#diger">Çiğköfte &amp; Tatlı</a>
-  <a href="#icecek">İçecekler</a>
+  <a href="#pide">Pide</a>
+  <a href="#diger">Çiğköfte</a>
+  <a href="#icecek">İçecek</a>
 </nav>
 <main>
   <section id="kebap">
@@ -86,5 +89,17 @@
   </section>
 </main>
 <footer>Fiyatlar TL cinsindendir. Afiyet olsun!</footer>
+<script>
+(function(){
+  var links=document.querySelectorAll('nav a'),secs=[].map.call(links,function(a){return document.querySelector(a.getAttribute('href'))});
+  function guncelle(){
+    var y=window.scrollY+120,i=0;
+    secs.forEach(function(s,n){if(s.offsetTop<=y)i=n});
+    if(window.innerHeight+window.scrollY>=document.body.scrollHeight-4)i=secs.length-1;
+    links.forEach(function(a,n){a.classList.toggle('aktif',n===i)});
+  }
+  addEventListener('scroll',guncelle,{passive:true});guncelle();
+})();
+</script>
 </body>
 </html>
