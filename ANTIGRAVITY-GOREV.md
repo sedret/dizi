@@ -11,7 +11,8 @@ Tarayıcıda dizimedya.com'un WordPress yönetim paneli açık ve giriş yapılm
 6. **Özet / meta açıklama:** dosyadaki "Meta açıklama" satırı.
 
 ## Önemli kurallar
-- Yazı artık doldurulmuş durumda, yer tutucu yok. Yayın durumunu **Taslak** bırak, yayınlama. Kullanıcı gözden geçirip yayınlayacak.
+- Yazı hazır, yer tutucu yok. Kullanıcı onayı verdi: yazıyı **doğrudan yayınla** ("Yayınla" butonu).
+- Yayınladıktan sonra yazının canlı sayfasını (görüntüleme bağlantısı) aç ve kontrol et: başlık doğru mu, tablo düzgün görünüyor mu, kategori ve etiketler atanmış mı, kaynak linkleri çalışıyor mu. Sorun varsa düzelt ve güncelle.
 - Metindeki marka ve fiyatları değiştirme, ekleme yapma.
 - Başka hiçbir yazıyı, sayfayı, temayı veya ayarı değiştirme. Eklenti kurma, silme yapma.
-- İş bitince ne yaptığını ve taslağın bağlantısını kısaca yaz.
+- İş bitince ne yaptığını, yayınlanan yazının bağlantısını ve kontrol sonucunu kısaca yaz.
