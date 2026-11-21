@@ -4,16 +4,14 @@ Tarayıcıda dizimedya.com'un WordPress yönetim paneli açık ve giriş yapılm
 
 ## Yapılacaklar
 1. Yazılar → Yeni Ekle sayfasını aç (`/wp-admin/post-new.php`).
-2. **Başlık:** `Dizi Karakterlerinin Dolabından: Ekranda En Çok Hangi Markalar Giyiliyor?`
+2. **Başlık:** `Kızılcık Şerbeti'nde Kim Ne Giydi? Doğa'dan Alev'e Kombinlerin Markaları ve Fiyatları`
 3. **Gövde:** `dizimedya-yazi-taslak.md` dosyasındaki yazı metnini kullan. Dosyanın en altındaki "Yayın notları" bölümünü ve `> **Yayınlamadan önce doldurun.**` uyarı kutusunu yazıya **ekleme**. Markdown başlıklarını (`#`, `##`) WordPress başlık bloklarına, tabloyu tablo bloğuna çevir.
 4. **Kategori:** `Dizi Kıyafetleri` (yoksa oluştur).
-5. **Etiketler:** Zara, Mango, dizi kombinleri, dizi kıyafetleri.
+5. **Etiketler:** Kızılcık Şerbeti, dizi kombinleri, dizi kıyafetleri, Doğa kombinleri, Alev kombinleri, Stradivarius, Massimo Dutti.
 6. **Özet / meta açıklama:** dosyadaki "Meta açıklama" satırı.
-7. Dosyanın sonundaki ortaklık bağlantısı notunu, yazıda ortaklık linki yoksa ekleme.
 
 ## Önemli kurallar
-- Tablodaki `[dizi adı]`, `[karakter]`, `[marka]` gibi köşeli parantezli yer tutucular doğrulanmış bilgi değildir. Bunları **uydurma bilgiyle doldurma**.
-- Yer tutucular hâlâ duruyorsa yazıyı **"Taslak olarak kaydet"** ile kaydet, **yayınlama**. Kullanıcıya taslağın bağlantısını ver, kalan satırları o doldursun.
-- Tablo satırları kullanıcı tarafından doğru bilgiyle doldurulmuşsa yazıyı yayınla.
+- Yazı artık doldurulmuş durumda, yer tutucu yok. Yayın durumunu **Taslak** bırak, yayınlama. Kullanıcı gözden geçirip yayınlayacak.
+- Metindeki marka ve fiyatları değiştirme, ekleme yapma.
 - Başka hiçbir yazıyı, sayfayı, temayı veya ayarı değiştirme. Eklenti kurma, silme yapma.
-- İş bitince ne yaptığını (taslak mı yayında mı, bağlantı) kısaca yaz.
+- İş bitince ne yaptığını ve taslağın bağlantısını kısaca yaz.

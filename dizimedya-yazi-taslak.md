@@ -1,50 +1,51 @@
-# Dizi Karakterlerinin Dolabından: Ekranda En Çok Hangi Markalar Giyiliyor?
+# Kızılcık Şerbeti'nde Kim Ne Giydi? Doğa'dan Alev'e Kombinlerin Markaları ve Fiyatları
 
-*Meta açıklama: Dizilerde gördüğümüz kombinlerin çoğu aslında vitrinde duran parçalardan çıkıyor. İşte ekranda en sık karşımıza çıkan markalar ve benzerini bulmanın yolları.*
+*Meta açıklama: Kızılcık Şerbeti'nin akılda kalan kombinleri hangi markalardan? Doğa, Alev ve Görkem'in giydiklerini fiyatlarıyla bir arada topladık.*
 
-Bölüm biter, ilk iş telefonu açıp yazarız: "Bu ceket nereden?" Hepimiz yaptık. Çoğu zaman da cevap, tahmin ettiğimizden çok daha yakında çıkıyor. Yüksek bütçeli görünen kombinlerin bir kısmı, mahalledeki alışveriş merkezinde duran parçalardan kuruluyor.
+Bölüm biter bitmez sosyal medyada aynı soru dolaşır: "Bu pantolon nereden?" Kızılcık Şerbeti de bu konuda izleyicisini en çok meraklandıran dizilerden biri. Çünkü karakterlerin kombinleri hem hikâyeyi anlatıyor hem de çoğu zaman mağazada karşımıza çıkabilecek parçalardan oluşuyor.
 
-Dizi kostüm ekipleri karakteri kıyafetle anlatır. Zengin kızın bej trençkotu, mahalle delikanlısının deri ceketi, patron karakterin kusursuz takımı… Hepsi bir hikâye taşır. Gelin, ekranda en çok karşımıza çıkan markalara ve neden tercih edildiklerine bakalım.
+Biz de çeşitli moda ve magazin sitelerinin bölüm bölüm yaptığı kombin haberlerinden bir derleme çıkardık. Aşağıdaki marka ve fiyatlar bu haberlerde yer alan bilgilere dayanıyor.
 
-## 1. Zara: Kostümcülerin kolay ulaştığı marka
-Trençkot, blazer ceket ve düz renk gömlek arıyorsanız ilk bakılan yer genelde burası. Parçalar sade, bol ve her mevsim bulunabilir olduğu için hem ana karakterlerde hem figürasyonda rahatça kullanılıyor.
+## Doğa'nın günlük şıklığı
+Doğa karakterinin rahat ama bakımlı tarzı en çok konuşulanlardan. 47. bölümde açık omuzlu fitilli beyaz tişört **Stradivarius** (679 TL), pantolon ise **Rak and Romi** olarak geçiyor. Mor, uçuşan şal **ZigZag**'a ait (990 TL). 48. bölümde ise evde giydiği pijama takımı **House of Silk** (1.299 TL), üzerindeki düğmeli hırka **Massimo Dutti** (3.100 TL) olarak listelenmiş.
 
-## 2. Mango: "Şık ama abartısız" için
-Ofis ve iş dünyası sahnelerinde, karakterin zarif ama gösterişsiz görünmesi gereken yerlerde sık seçilen markalardan.
+Aynı karakterin kaşmir ceketi için ise **Wingcott** (900 TL) adı veriliyor.
 
-## 3. H&M, LC Waikiki, Koton, DeFacto: Günlük hayatın dili
-Mahalle, okul ve aile sahnelerinde izleyicinin "benim dolabımda da var" diyeceği parçalar bu markalardan gelir. Karakter gerçekçi görünsün diye bilerek yüksek fiyatlı bir şey seçilmez.
+## Alev'in kırmızı pantolonu
+53. bölümde Alev'in kırmızı pantolonu epey ilgi gördü. Haberlere göre markası **Seize the Day**, fiyatı 1.890 TL. Kalıbıyla öne çıkan parçalardan biri.
 
-## 4. Mavi ve yerli denim markaları
-Genç karakterlerin vazgeçilmezi kot, sweatshirt ve basic tişörtler. Yerli markalar sayesinde hem bütçe hem tedarik kolay.
+## Görkem'in uzun kabanı
+81. bölümde Görkem'in uzun kabanı **Cheeya** olarak belirtiliyor (11.900 TL). Dizinin en pahalı parçalarından biri.
 
-## 5. Lüks butikler ve tasarımcılar
-Gösterişli yaşam sürdüren karakterler için çantalar, ayakkabılar ve abiye elbiseler çoğunlukla butiklerden ve tasarımcılardan geliyor. Burada kombin değil, tek bir parça öne çıkar.
+## Peki ne var ne yok? Kısaca tablo
 
----
+| Karakter | Parça | Marka | Fiyat |
+|---|---|---|---|
+| Doğa | Fitilli beyaz tişört | Stradivarius | 679 TL |
+| Doğa | Pantolon | Rak and Romi | 3.750 TL |
+| Doğa | Mor şal | ZigZag | 990 TL |
+| Doğa | Pijama takımı | House of Silk | 1.299 TL |
+| Doğa | Düğmeli hırka | Massimo Dutti | 3.100 TL |
+| Doğa | Kaşmir ceket | Wingcott | 900 TL |
+| Alev | Kırmızı pantolon | Seize the Day | 1.890 TL |
+| Görkem | Uzun kaban | Cheeya | 11.900 TL |
 
-## Dizi / Karakter / Marka tablosu
-
-> **Yayınlamadan önce doldurun.** Aşağıdaki satırları gerçek bilgiyle (dizinin kostüm ekibi, resmî sosyal medya paylaşımı ya da markanın kendi duyurusu) doğrulayıp yazın. Doğrulayamadığınız yere "benzeri" yazın.
-
-| Dizi | Karakter | Parça | Marka | Fiyat aralığı | Link |
-|------|----------|-------|-------|---------------|------|
-| [dizi adı] | [karakter] | [ör. bej trençkot] | [marka] | [₺] | [link] |
-| [dizi adı] | [karakter] | [parça] | [marka] | [₺] | [link] |
-| [dizi adı] | [karakter] | [parça] | [marka] | [₺] | [link] |
+*Fiyatlar haberlerin yayınlandığı döneme aittir, güncel fiyat ve stok farklı olabilir.*
 
 ## Aynısını bulamazsanız
-- Parçanın **kesimine** bakın: rengi ve modeli yakalamak, markayı yakalamaktan daha önemli.
-- Aramada "dizideki ceket" yerine "oversize bej trençkot" gibi **ürün adıyla** arayın.
-- Fiyat çok yüksekse **ikinci el** ve indirim dönemlerini kollayın.
+- Parçanın **kesimine ve rengine** bakın, markayı yakalamaktan çok model önemli.
+- Aramada "kırmızı geniş paça pantolon" gibi **ürün adıyla** arayın.
+- Fiyat yüksekse indirim dönemlerini ve ikinci el seçeneklerini kollayın.
 
-## Sizce hangi dizi en iyi giyindi?
-Yorumlarda yazın, bir sonraki yazıya en çok oy alan dizinin kıyafetlerini ekleyelim.
+## Sizce en iyi giyinen karakter kim?
+Yorumlara yazın, bir sonraki yazıda en çok oy alan karakterin kombinlerini ekleyelim.
+
+*Kaynaklar: [Onedio, 47-48. bölüm kıyafetleri](https://onedio.com/haber/izleyiciler-arasinda-merak-konusu-olan-kizilcik-serbeti-47-48-bolum-kiyafetleri-ve-benzer-oneriler-1200811), [Onedio, 53. bölüm](https://onedio.com/haber/abdullah-unal-geri-dondu-kizilcik-serbeti-53-bolum-dizi-kiyafetleri-ve-benzer-oneriler-1208649), [TGRT Haber, Özge Özacar ve Sıla Türkoğlu kombinleri](https://www.tgrthaber.com/mavikadin/kizilcik-serbeti-dizisinde-ozge-ozacar-ve-sila-turkoglunun-kombinleri-ve-fiyatlari)*
 
 ---
 
 **Yayın notları (yazıya dahil değil)**
 - Kategori: *Dizi Kıyafetleri*
-- Etiketler: Zara, Mango, dizi kombinleri, dizi kıyafetleri, [dizi adları]
-- Görsel: kendi çektiğiniz ya da lisanslı görseller kullanın; dizi karelerini kullanacaksanız kaynak gösterin.
-- Affiliate linki varsa yazıya "Bu yazıdaki bazı bağlantılar ortaklık bağlantısıdır" notunu ekleyin.
+- Etiketler: Kızılcık Şerbeti, dizi kombinleri, dizi kıyafetleri, Doğa kombinleri, Alev kombinleri, Stradivarius, Massimo Dutti
+- Görsel: kendi çektiğiniz ya da lisanslı görsel kullanın; dizi karesi kullanırsanız kaynak gösterin.
+- Yayından önce kaynak linklerini açıp marka ve fiyatları bir kez gözden geçirin.
